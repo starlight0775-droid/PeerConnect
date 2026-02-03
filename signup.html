@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Find a Peer Pal | PeerConnect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="lined-page">
+>
+
+  <!-- Banner -->
+  <header class="page-header">
+    <img src="Peer2.jpg" alt="PeerConnect Sign Up Banner" class="banner-img">
+    <p class="banner-text">Let’s help you find someone who understands.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="safety.html">Safety</a>
+    <a href="Stories.html">Stories</a>
+    <a href="why.html">Why We Do This</a>
+  </nav>
+
+  <!-- Signup Form -->
+  <section class="content">
+    <h2>Sign Up for PeerConnect</h2>
+    <p>
+      This short form helps us suggest peer partners who may share similar
+      experiences. Your information is kept private.
+    </p>
+
+    <form class="signup-form" action="https://formsubmit.co/starlight0775@gmail.com" method="POST">
+
+      <!-- Name -->
+      <label>Preferred Name or Nickname</label>
+      <input type="text"
+      name="name"
+      placeholder="e.g. Alex" required>
+
+<label>Email Address</label>
+<input required
+  type="email" 
+  name="email" 
+  placeholder="e.g. you@example.com" 
+>
+
+      <!-- Age -->
+      <label>Age Range</label>
+      <select name="age_range"required>
+        <option value="">Select</option>
+        <option>13–15</option>
+        <option>16–18</option>
+        <option>19+</option>
+      </select>
+
+      <!-- Gender (Optional) -->
+      <label>Gender (Optional)</label>
+      <select name="gender">
+        <option>Prefer not to say</option>
+        <option>Female</option>
+        <option>Male</option>
+        <option>Other</option>
+      </select>
+
+      <!-- Experiences -->
+      <label>What best describes what you're dealing with?</label>
+      <select name="experiences" required>
+        <option value="">Select</option>
+        <option>Feeling left out or rejected</option>
+        <option>Low confidence or self-esteem</option>
+        <option>Peer pressure</option>
+        <option>Bullying or teasing</option>
+        <option>Just want someone to talk to</option>
+      </select>
+
+      <!-- Peer Preference -->
+      <label>Who would you prefer to talk to?</label>
+      <select name="peer preference" required>
+        <option value="">Select</option>
+        <option>Someone with similar experiences</option>
+        <option>Someone older</option>
+        <option>Someone my age</option>
+        <option>No preference</option>
+      </select>
+
+      <!-- Message -->
+      <label>Short Message (Optional)</label>
+      <textarea 
+      name="message"
+      rows="4" placeholder="You can share what you hope to talk about..."></textarea>
+
+      <!-- Submit -->
+      <button type="submit" class="btn">Submit & Find Matches</button>
+       <input type="hidden" name="_next" value="http://127.0.0.1:5500/match.html">
+ 
+<input type="hidden" name="_subject" value="New Peer Connect Signup">
+<input type="hidden" name="_captcha" value="false">
+
+
+    </form>
+  </section>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

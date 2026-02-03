@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Stories</title>
+</head>
+<body>
+     
+    <!-- Anonymous Stories -->
+<section class="stories-section">
+  <h2>You’re Not the Only One</h2>
+  <p class="stories-intro">
+    These are real, anonymous experiences shared by teenagers who’ve felt
+    unheard, rejected, or out of place.
+  </p>
+
+  <div class="stories-grid">
+    <div class="story-card">
+      <p>
+        “I stopped talking in class because every time I spoke, someone laughed.
+        I started believing I wasn’t smart.”
+      </p>
+    </div>
+
+    <div class="story-card">
+      <p>
+        “I wasn’t bullied. I was just ignored. Somehow that hurt more than being
+        teased.”
+      </p>
+    </div>
+
+    <div class="story-card">
+      <p>
+        “Everyone thinks I’m confident, but I’ve never felt like I truly belong
+        anywhere.”
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Submit Anonymous Story -->
+ <nav class="nav">
+ <a href="index.html">Home</a>
+    <a href="signup.html">Find a Peer Pal</a>
+    <a href="safety.html">Safety</a>
+    <a href="why.html">Why We Do This</a>
+    </nav>
+<section class="story-submit">
+  <h2>Share Your Story (Anonymous)</h2>
+  <p>
+    You don’t have to give your name. Your story may help someone else feel less
+    alone.
+  </p>
+
+  <form
+    action="https://formsubmit.co/starlight0775@gmail.com"
+    method="POST"
+    class="story-form"
+  >
+    <textarea
+      name="story"
+      rows="5"
+      placeholder="Write your story here..."
+      required
+    ></textarea>
+
+    <input type="hidden" name="_subject" value="New Anonymous PeerConnect Story">
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit" class="btn">Submit Anonymously</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
